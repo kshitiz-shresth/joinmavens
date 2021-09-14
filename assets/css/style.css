@@ -1,0 +1,29 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding: 2rem;
+  background: #FFFFFF;
+  border-radius: 3px;
+}
+.item__imagebox {
+  width: 10rem;
+}
+.item__body {
+  text-align: center;
+}
+.item__designation {
+  margin-top: 0;
+}
+.item__description {
+  text-align: center;
+}
+.item__description::before {
+  content: '"';
+}
+.item__description::after {
+  content: '"';
+}
+
+/*# sourceMappingURL=style.css.map */
