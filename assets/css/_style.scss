@@ -1,19 +1,39 @@
-.item{
+.owl-carousel .owl-stage{display: flex;}
+.item {
+  display: flex;
+  height: 100%;
+}
+.main-item{
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100%;
-  padding: 2rem;
   background: #FFFFFF;
   border-radius: 3px;
+  padding: 2rem;
   &__imagebox{
     width: 10rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 250px;
+    border: 1px #ececec solid;
+    padding: .3rem;
+  }
+  &__image{
+    object-fit: contain;
+    height: auto;
+    width: auto;
   }
   &__body{
     text-align: center;
   }
+  &__name{
+    font-size: 2rem;
+  }
   &__designation{
     margin-top: 0;
+    font-size: 1.4rem;
   }
   &__description{
     text-align: center;
