@@ -50,4 +50,8 @@
   content: '"';
 }
 
+img.logo.logo-display, img.logo.logo-scrolled {
+  border-radius: 9px;
+}
+
 /*# sourceMappingURL=style.css.map */
